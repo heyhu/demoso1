@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
             Log.i("r0addmethod1", method01("roysue"));
             Log.i("r0addmethod2", method02(method01("roysue")));
         }
-         */
 
         Log.i("zsx,addmethod1", method01("BigoneLab"));
         Log.i("zsx,addmethod2", method02(method01("BigoneLab")));
 
-        //testField();
-        //testMethod();
+        testField();
+        testMethod();
+        */
 
     }
 
