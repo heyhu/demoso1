@@ -27,7 +27,11 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
         //Log.i("r0add", String.valueOf(this.myfirstjni()));
-        //Log.i("r0add", MainActivity.stringFromJNI());
+        Log.i("r0add", MainActivity.stringFromJNI());
+        Log.i("zsx,addmethod1", method01("BigoneLab"));
+        Log.i("zsx,addmethod2", method02(method01("BigoneLab")));
+        testField();
+        testMethod();
 
         //init();
         /*
@@ -43,9 +47,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("zsx,addmethod1", method01("BigoneLab"));
         Log.i("zsx,addmethod2", method02(method01("BigoneLab")));
-
-        testField();
-        testMethod();
         */
 
     }
